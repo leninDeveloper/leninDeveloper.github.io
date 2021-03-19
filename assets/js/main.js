@@ -57,6 +57,8 @@ sr.reveal('.work__img',{interval: 200});
 sr.reveal('.contact__input',{interval: 200}); 
 
 
+
+
 document.getElementById("goResume").onclick = function () {
     location.href = "./portfolio/index.html";
 };
