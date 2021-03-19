@@ -43,7 +43,8 @@
                 <div class="home__data">
                     <h1 class="home__title">Hi,<br>I'am <span class="home__title-color"><br>Irungbam Lenin Singh</span><br> Software Developer</h1>
 
-                    <a href="./portfolio/index.html" class="button" id="goResume">Go To My Resume</a>
+                    <a href="./portfolio/index.html" class="button">Go To My Resume <i class='bx bx-arrow-from-left goResume' ></i></a>
+              
                 </div>
 
                 <div class="home__social">
@@ -211,8 +212,8 @@
 
                 <div class="contact__container bd-grid">
                     <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
+                        <input type="text" placeholder="Name" class="contact__input" required>
+                        <input type="text" placeholder="Phone Number" class="contact__input" pattern="[7-9]{1}[0-9]{9}" title="Phone number with 7-9 and remaing 9 digit with 0-9" required>
                         <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
                         <input type="button" value="Enter" class="contact__button button">
                     </form>

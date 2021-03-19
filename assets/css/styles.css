@@ -231,7 +231,10 @@ img{
 .button:hover{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
-
+.goResume{
+  vertical-align: middle;
+  font-size: 1.5rem;
+}
 /* ===== ABOUT =====*/
 .about__container{
   row-gap: 2rem;
